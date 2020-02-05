@@ -6,7 +6,7 @@ Steps involved:
 1.	Acquiring top 200,00 records from Stackexchange based on View Count
 2.	Uploading the records file to Hadoop cluster and Performing ETL operations using PIG
 3.	Querying the cleaned records using HIVE
-4.	Calculating TF-IDF with MapReduce, while removing the “stop words”, to find the top 10 terms for each of the top 10 users
+4.	Calculating TF-IDF with 3 phases of MapReduce, while removing the “stop words”, to find the top 10 terms for each of the top 10 users
 
 Refer to the ‘Screenshots.word’ file for detailed steps.
 
